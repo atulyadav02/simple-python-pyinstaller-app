@@ -1,4 +1,4 @@
-pipeline {
+/*pipeline {
    agent any
    environment {
        registry = "magalixcorp/k8scicd"
@@ -64,7 +64,7 @@ pipeline {
    }
 }
 
-/*
+*/
 pipeline {
     agent none
     stages {
@@ -110,4 +110,4 @@ pipeline {
         }
     }
 }
-*/
+
